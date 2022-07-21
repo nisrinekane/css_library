@@ -1,0 +1,111 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* button class from the "button up" repo */
+.plus {
+  background-color: #8fdddf;
+  border: solid #8fdddf;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 30px;
+}
+
+
+/* row and column classes from the "flexvible columns" repo */
+.row {
+    display: flex;
+}
+
+
+.col, .col-2, .col-3  {
+    color: #fff;
+    background-color: #40B5BC;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+
+/* the navbar classes from the flex navbar repo */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #fff;
+    margin-left: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+
+/* a logout button class from the profile page repo */
+.logout-button {
+    margin: 1.3em;
+    padding: 0.7em;
+    background-color: #00CBFE;
+    border: 1px #fff solid;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+/* notifications button class from the profile page repo */
+.notification-button {
+    background-color: #FA3e3e;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 2.5em;
+    color: #fff;
+    font-size: 0.5;
+    font-weight: bolder;
+}
+
+/* classes for the yes and no font awesome check marks from the profile page repo */
+.yes-check, .no-check {
+    padding-top: 15px;
+}
+
+.yes-check {
+    margin-left: 100px;
+    color: #34B233;
+    font-size: 1.5em;
+}
+
+.no-check {
+    color: #FA3E3E;
+    font-size: 1.5em;
+}
